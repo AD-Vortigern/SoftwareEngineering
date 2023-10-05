@@ -7,7 +7,7 @@ int main()
 
 
     //For loop (pre-C99 standard)
-    for (i = 0; i < 5; i++)
+    for (i = -10; i != 25; i += 5)
     {
         //Perform code tasks
         printf("i=%d\n", i);
@@ -22,9 +22,10 @@ int main()
     // TASK D - count from -10 down to 20 in steps of 5
 
     // TASK E - can you predict the largest value of i that is displayed?
-    for (i = 0; i < 12; i += 3)
-    {
-        //Perform code tasks
-        printf("i=%d\n", i);
-    }
+    
+    //for (i = 0; i < 12; i += 3)
+    //{
+    //    //Perform code tasks
+    //    printf("i=%d\n", i);
+    //}
 }
