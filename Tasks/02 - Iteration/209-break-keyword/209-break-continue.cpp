@@ -2,6 +2,7 @@
 
 int main()
 {
+    printf("Type a character: \n");
     for (int i = 0; i <= 10; i++)   // potentially loop from 1 to 10  
     {
         char c = getchar(); //Read character
